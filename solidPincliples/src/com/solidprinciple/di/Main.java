@@ -7,6 +7,7 @@ public class Main {
         NotificationService notificationService = new NotificationService();
         notificationService.sendNotification("Hello, World!", "email");
         notificationService.sendNotification("Hello, world!", "sms");
+        notificationService.sendNotification("Hello, Git!", "sms");
     }
 }
 
